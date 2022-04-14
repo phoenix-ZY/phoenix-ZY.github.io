@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    color:aliceblue;
+}
+h1{
+    color: red;
+    font: bolder 50px 'Times New Roman', Times, serif;
+}
+h2{
+    color: blue;
+    font : normal 800 35px 'Times New Roman', Times, serif;
+}
+.box{
+    width : 60px;
+    height : 60px ;
+}
+.red{
+    background-color: red;
+}
+a{
+    text-decoration: none;
+    font:bolder 100px ;
+    color:blueviolet ; 
+}
+html{
+    background-color:rgba(3, 1, 24, 0.8);
+}
+table tr td{
+    color:aqua;
+    font : normal 400 25px 'Times New Roman', Times, serif; 
+    border: 1px solid rgb(11, 131, 161);
+}
+*{
+    margin: 10;
+    padding: 10;
+}
