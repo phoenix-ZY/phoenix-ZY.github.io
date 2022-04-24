@@ -17,6 +17,15 @@ body{
     background-size: cover;
     font :30px/1.5 'Times New Roman', Times, serif;
 }
+.head{
+    position: fixed;
+    left:0;
+    top:0;
+    width:120px;
+    height:250px;
+    background-color: rgb(238,238,238,.3);
+    color:blue;
+}
 .wholetitle{
     border-bottom: 5px solid blueviolet;
     padding-left:20px;
@@ -25,7 +34,8 @@ body{
     font: bolder 50px 'Times New Roman', Times, serif;
 }
 h2{
-    padding-bottom: 5px;
+    padding-top: 50px;
+    padding-bottom: 20px;
     border-bottom: 1px solid white;
     margin:20px 10px ;
     color: blue;
@@ -35,41 +45,99 @@ h2{
 #card{
     border-top: #fff 2px;
 }
-.box{
-    width : 60px;
-    height : 60px ;
+.personal-information{
+    overflow:hidden;
 }
-.table1{
-    margin-right:100px;
+.photo1{
+    float:left;
+    width:400px;
+    height: 384px;
+    padding-right: 50px;
 }
-a{
-    display:block;
+.information
+{
+    border-radius: 50px;
+    background-image: url("background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    color:darkred;
+    width:460px;
+    float:left;
+    height:384px;
+}
+li{
+    list-style: none;
+}
+.information li{
+    line-height: 120px;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+.music{
+    overflow:hidden;
+}
+.imgbox{
+    position:relative;
+    float: left;
+    width:682px;
+    height:384px;
+}
+.link{
+    background-image: url("part-00026-3265.jpg");
+    background-size: 60px 230px;
+    background-repeat: no-repeat;
+    position:absolute;
+    top:0px;
+    right:0px;
+    font: 1000 50px 'Times New Roman', Times, serif;
     text-decoration: none;
-    font:bolder 100px ;
-    color:blueviolet ; 
-    margin-right:790px;
+    color:black ; 
+    width:60px;
+    height:230px;
 }
-a:hover{
-    background-color: aqua;
-    box-shadow: 5px 5px 5px 5px rgba(0,0,0,.3);
+.link:hover{
+    color:aqua;
+    box-shadow: 15px 15px 15px 15px rgba(0,0,0,.3);
+    cursor: pointer;
 }
-table,th,td{
-    color:aquamarine;
-    border: 3px solid ;
-    border-collapse: collapse;
+.introduction
+{
+    float:left;
+    width:238px;
+    height:264px;
+    margin-left: 30px;
+    padding-left: 5px;
+    border:dotted 2px greenyellow ;
+    line-height: 80px;
+    color:darkorange;
+
+}
+.form1{
+    width:436.5px;
+    height:250px;
+    background-image: url("u=3655106514,1124371673&fm=253&fmt=auto&app=138&f=JPEG.webp");
+    background-size:466.5px 250px;
+    color:black;
+    font:900 30px/2.5 'STKaiti';
+    padding-left: 30px;
 }
 #botton{
     color:#fff;
-    border:0px;
-    font-size:19px;
-    background-color: #141b28;
+    border-style: groove;
+    border-radius: 5px;
+    border-color: aqua;
+    font-size:20px;
+    background-color: pink;
     display:block;
-    width:80px;
+    width:90px;
     height:30px;
     margin:10px 0 0 20px;
 }
 #botton:hover {
     background-color:blueviolet;
+    cursor: pointer;
 }
 
 
