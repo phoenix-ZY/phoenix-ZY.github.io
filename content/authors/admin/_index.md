@@ -30,7 +30,7 @@ bio: My research interests are emerging hardware and software technologies.
 # Social Networking
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: github
+  - icon: brands/github
     url: 'https://github.com/phoenix-ZY/'
     label: My Github Repository
   # - icon: brands/x
