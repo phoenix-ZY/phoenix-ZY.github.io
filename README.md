@@ -1,4 +1,6 @@
-# [Creator's Blog: Hugo Theme](https://github.com/HugoBlox/theme-blog)
+This is my Blog
+
+<!-- # [Creator's Blog: Hugo Theme](https://github.com/HugoBlox/theme-blog)
 
 [![Screenshot](./.github/preview.png)](https://hugoblox.com/templates/)
 
@@ -35,4 +37,4 @@ We're an open source movement that depends on your support to stay online and th
 
 ## Demo credits
 
-- [Unsplash](https://unsplash.com/) images
+- [Unsplash](https://unsplash.com/) images -->
