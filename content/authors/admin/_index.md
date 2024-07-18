@@ -30,9 +30,9 @@ bio: My research interests are emerging hardware and software technologies.
 # Social Networking
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  # - icon: at-symbol
-  #   url: 'mailto:your-email@example.com'
-  #   label: E-mail Me
+  - icon: github
+    url: 'https://github.com/phoenix-ZY/'
+    label: My Github Repository
   # - icon: brands/x
   #   url: https://twitter.com/GetResearchDev
   # - icon: brands/instagram
