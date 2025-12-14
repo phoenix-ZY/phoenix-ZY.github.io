@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student @<a href='https://www.cs.sjtu.edu.cn/sail/'>SAIL, SJTI</a> 
+subtitle: PhD Student @<a href='https://www.cs.sjtu.edu.cn/sail/'>SAIL, SJTU</a> 
 
 profile:
   align: right
