@@ -32,8 +32,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-our-paper-second-author-jigsaw-taming-bev-centric-perception-on-dual-soc-for-autonomous-driving-has-been-accepted-to-rtss-2024",
-          title: 'Our paper ( second author ) “Jigsaw: Taming bev-centric perception on dual-soc for...',
+            },},{id: "news-our-paper-jigsaw-taming-bev-centric-perception-on-dual-soc-for-autonomous-driving-has-been-accepted-to-rtss-2024-second-student-author",
+          title: 'Our paper “Jigsaw: Taming bev-centric perception on dual-soc for autonomous driving” has been...',
           description: "",
           section: "News",},{id: "news-my-first-author-paper-repurpose-accel-sim-for-next-generation-nvidia-jetson-gpu-architectural-design-has-been-accepted-to-islped-2025",
           title: 'My first author paper “Repurpose Accel-Sim for Next Generation NVIDIA Jetson GPU Architectural...',
