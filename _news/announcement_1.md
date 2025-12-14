@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper ( second author ) "Jigsaw: Taming bev-centric perception on dual-soc for autonomous driving" has been accepted to **RTSS 2024**! 🎉 
+Our paper "Jigsaw: Taming bev-centric perception on dual-soc for autonomous driving" has been accepted to **RTSS 2024**! 🎉 (second student author)  
