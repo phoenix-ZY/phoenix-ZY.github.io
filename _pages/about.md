@@ -6,7 +6,7 @@ subtitle: PhD Student @<a href='https://www.cs.sjtu.edu.cn/sail/'>SAIL, SJTU</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: 
   image_circular: false # crops the image to make it circular
   more_info: >
 
@@ -19,7 +19,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: false
+  enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
