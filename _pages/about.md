@@ -19,9 +19,9 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a **first-year Ph.D. student** in **Computer Science** at **Shanghai Jiao Tong University**, advised by **Prof. Chao Li** (SAIL Lab). My research focuses on **computer architecture**—spanning **CPU microarchitecture**, **performance modeling**, and emerging **NPU/GPU design**.
+I am a **Ph.D. student** in **Computer Science** at **Shanghai Jiao Tong University**, advised by **Prof. Chao Li** (SAIL Lab). My research focuses on **computer architecture**—spanning **CPU microarchitecture**, **performance modeling**, and emerging **NPU/GPU design**.
