@@ -3,16 +3,6 @@
   {{ site.first_name }}
   {{ site.middle_name }}
   {{ site.last_name }}. {{ site.footer_text }}
-  {% if page.permalink == '/' %}
-    <style>
-      .chronicle-entry { display: inline-flex; align-items: center; justify-content: center; width: 24px; height: 20px; margin-left: 5px; vertical-align: middle; opacity: .55; }
-      .chronicle-entry:hover, .chronicle-entry:focus-visible { opacity: 1; }
-      .chronicle-entry:focus-visible { outline: 1px solid currentColor; outline-offset: 2px; }
-    </style>
-    <a class="chronicle-entry" href="https://sjtu-tes.github.io/gn-chronicle/" aria-label="打开岁序编年史" title="岁序">
-      <svg width="12" height="12" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3v26M3 16h26M7 7l18 18M7 25 25 7" fill="none" stroke="currentColor" stroke-width="1.3"/><circle cx="16" cy="16" r="3" fill="currentColor"/></svg>
-    </a>
-  {% endif %}
   {% if site.impressum_path %}
     <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
   {% endif %}
