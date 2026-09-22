@@ -1,0 +1,77 @@
+# The order of the groups and events is the reading order.
+# Dates and text can be changed here without touching the page layout.
+title: 岁序
+subtitle: 沿着时间，慢慢生长。
+years:
+  - year: "2023"
+    caption: 一切的开始
+    english: THE FIRST SPARK
+    events:
+      - id: operating-systems
+        date: "2023.03"
+        datetime: "2023-03"
+        category: 课程 · 起点
+        title: 从一门操作系统课开始
+        description: 一门操作系统课程，成为这条时间线的起点。关于计算机如何运转的好奇，从这里慢慢展开。
+        note: 故事的第一页，留给最初的好奇。
+        style: origin
+        number: "01"
+        english: HELLO, SYSTEMS.
+        demo: false
+      - id: first-exploration
+        date: "2023 · 秋"
+        datetime: "2023"
+        category: 探索
+        title: 把一个问题，多想一会儿
+        description: 这里可以放一次课程实践、一个独立项目，或某个让方向渐渐清晰的瞬间。
+        note: 有些小小的尝试，后来成了新的起点。
+        style: reflection
+        number: "02"
+        english: FOLLOW THE QUESTION
+        demo: true
+  - year: "2024"
+    caption: 向更深处走去
+    english: A LITTLE FURTHER
+    events:
+      - id: a-new-chapter
+        date: "2024"
+        datetime: "2024"
+        category: 成长
+        title: 在探索中，找到自己的节奏
+        description: 为这一年留一个位置。可以是一段研究经历、一场交流，也可以是第一次把想法完整地做出来。
+        note: 不急着给每一步命名，走过的路会慢慢连起来。
+        style: chapter
+        number: "03"
+        english: FINDING MY OWN PACE
+        demo: true
+  - year: "2025"
+    caption: 让想法落地
+    english: INTO THE DETAILS
+    events:
+      - id: arm-microbenchmarks
+        date: "2025.11"
+        datetime: "2025-11"
+        category: 研究 · 合作
+        title: 走近每一条指令
+        description: 开始与华为合作推进 ARM 指令微基准测试套件，围绕指令吞吐、延迟测量与执行端口推断，继续探索处理器的内部行为。
+        note: 从一个问题出发，把理解往前推进一点。
+        style: research
+        number: "04"
+        english: CLOSER TO THE MACHINE
+        demo: false
+        ongoing: true
+  - year: "2026"
+    caption: 故事仍在继续
+    english: STILL BECOMING
+    events:
+      - id: an-open-page
+        date: "2026 · 此刻"
+        datetime: "2026"
+        category: 留白
+        title: 给下一段故事，留一页空白
+        description: 下一次出发、下一个想法，或者只是值得记住的一天。未来的记录，会慢慢填满这里。
+        note: To be continued.
+        style: open
+        number: "05"
+        english: AN OPEN PAGE
+        demo: true
