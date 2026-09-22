@@ -10,9 +10,9 @@
     const title = document.getElementById("chronicle-title");
     if (!gate || !form || !password || !error || !content) return;
 
-    // This is a playful entrance to a public demo, not an authentication system.
-    const demoPassword = "202303";
-    const storageKey = "th-chronicle-demo-unlocked";
+    // This is a playful entrance to a public chronicle, not an authentication system.
+    const chroniclePassword = "202304";
+    const storageKey = "gn-chronicle-202304-unlocked";
     const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
     const readingProgress = document.getElementById("reading-progress");
     const readingPercent = document.getElementById("reading-percent");
@@ -157,7 +157,7 @@
 
     form.addEventListener("submit", (event) => {
       event.preventDefault();
-      if (password.value.trim() === demoPassword) {
+      if (password.value.trim() === chroniclePassword) {
         openChronicle();
         return;
       }

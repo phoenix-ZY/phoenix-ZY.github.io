@@ -1,77 +1,185 @@
-# The order of the groups and events is the reading order.
-# Dates and text can be changed here without touching the page layout.
-title: 岁序
-subtitle: 沿着时间，慢慢生长。
+# Groups and events are listed in chronological reading order.
+# Keep dates, nicknames, and event wording aligned with the GN record.
+title: "GN"
+subtitle: "GN 的编年史。"
 years:
+  - year: "2022"
+    label: "前序"
+    prelude: true
+    caption: "前序"
+    english: "PRELUDE"
+    events:
+      - id: "before-the-beginning"
+        date: "2022.10.13"
+        datetime: "2022-10-13"
+        category: "前序"
+        title: "sfx 询问转网安专业"
+        style: "reflection"
+        number: "00"
+        english: "OCTOBER 13, 2022"
   - year: "2023"
-    caption: 一切的开始
-    english: THE FIRST SPARK
+    label: "2023"
+    caption: "梦开始的地方"
+    english: "THE BEGINNING"
     events:
-      - id: operating-systems
-        date: "2023.03"
-        datetime: "2023-03"
-        category: 课程 · 起点
-        title: 从一门操作系统课开始
-        description: 一门操作系统课程，成为这条时间线的起点。关于计算机如何运转的好奇，从这里慢慢展开。
-        note: 故事的第一页，留给最初的好奇。
-        style: origin
+      - id: "operating-systems"
+        date: "2023.04"
+        datetime: "2023-04"
+        category: "课程 · 起点"
+        title: "操作系统课程"
+        description: "梦开始的地方"
+        style: "origin"
         number: "01"
-        english: HELLO, SYSTEMS.
-        demo: false
-      - id: first-exploration
-        date: "2023 · 秋"
-        datetime: "2023"
-        category: 探索
-        title: 把一个问题，多想一会儿
-        description: 这里可以放一次课程实践、一个独立项目，或某个让方向渐渐清晰的瞬间。
-        note: 有些小小的尝试，后来成了新的起点。
-        style: reflection
+        english: "APRIL 2023"
+      - id: "halal-canteen-gathering"
+        date: "2023.05.04"
+        datetime: "2023-05-04"
+        category: "聚餐"
+        title: "清真食堂聚餐"
+        style: "reflection"
         number: "02"
-        english: FOLLOW THE QUESTION
-        demo: true
-  - year: "2024"
-    caption: 向更深处走去
-    english: A LITTLE FURTHER
-    events:
-      - id: a-new-chapter
-        date: "2024"
-        datetime: "2024"
-        category: 成长
-        title: 在探索中，找到自己的节奏
-        description: 为这一年留一个位置。可以是一段研究经历、一场交流，也可以是第一次把想法完整地做出来。
-        note: 不急着给每一步命名，走过的路会慢慢连起来。
-        style: chapter
+        english: "MAY 04, 2023"
+      - id: "lfz-account-ban"
+        date: "2023.06.08"
+        datetime: "2023-06-08"
+        category: "记事"
+        title: "lfz封号"
+        style: "reflection"
         number: "03"
-        english: FINDING MY OWN PACE
-        demo: true
-  - year: "2025"
-    caption: 让想法落地
-    english: INTO THE DETAILS
+        english: "JUNE 08, 2023"
+  - year: "2024"
+    label: "2024"
+    caption: "2024 年记事"
+    english: "ARCHIVE 2024"
     events:
-      - id: arm-microbenchmarks
-        date: "2025.11"
-        datetime: "2025-11"
-        category: 研究 · 合作
-        title: 走近每一条指令
-        description: 开始与华为合作推进 ARM 指令微基准测试套件，围绕指令吞吐、延迟测量与执行端口推断，继续探索处理器的内部行为。
-        note: 从一个问题出发，把理解往前推进一点。
-        style: research
+      - id: "ff-forever"
+        date: "2024.06.14"
+        datetime: "2024-06-14"
+        category: "记事"
+        title: "ff永相随"
+        style: "reflection"
         number: "04"
-        english: CLOSER TO THE MACHINE
-        demo: false
-        ongoing: true
-  - year: "2026"
-    caption: 故事仍在继续
-    english: STILL BECOMING
-    events:
-      - id: an-open-page
-        date: "2026 · 此刻"
-        datetime: "2026"
-        category: 留白
-        title: 给下一段故事，留一页空白
-        description: 下一次出发、下一个想法，或者只是值得记住的一天。未来的记录，会慢慢填满这里。
-        note: To be continued.
-        style: open
+        english: "JUNE 14, 2024"
+      - id: "zhoushan-trip"
+        date: "2024.09.12"
+        datetime: "2024-09-12"
+        category: "旅行"
+        title: "舟山旅游"
+        style: "travel"
         number: "05"
-        english: AN OPEN PAGE
-        demo: true
+        english: "SEPTEMBER 12, 2024"
+      - id: "mama-shuangtu"
+        date: "2024.09.13"
+        datetime: "2024-09-13"
+        category: "记事"
+        title: "麻麻爽吐"
+        style: "reflection"
+        number: "06"
+        english: "SEPTEMBER 13, 2024"
+      - id: "duoduo-joins"
+        date: "2024.10.14"
+        datetime: "2024-10-14"
+        category: "记事"
+        title: "多多加入"
+        style: "reflection"
+        number: "07"
+        english: "OCTOBER 14, 2024"
+  - year: "2025"
+    label: "2025"
+    caption: "2025 年记事"
+    english: "ARCHIVE 2025"
+    events:
+      - id: "lfz-defeats-wck"
+        date: "2025.05.05"
+        datetime: "2025-05-05"
+        category: "记事"
+        title: "lfz 101:99 战胜wck"
+        style: "reflection"
+        number: "08"
+        english: "MAY 05, 2025"
+      - id: "one-family-founded"
+        date: "2025.05.25"
+        datetime: "2025-05-25"
+        category: "记事"
+        title: "相亲相爱一家人成立"
+        style: "reflection"
+        number: "09"
+        english: "MAY 25, 2025"
+      - id: "jinjin-returns-to-gn"
+        date: "2025.06.03"
+        datetime: "2025-06-03"
+        category: "记事"
+        title: "金金回归gn"
+        style: "reflection"
+        number: "10"
+        english: "JUNE 03, 2025"
+      - id: "guangxi-graduation-trip"
+        date: "2025.06.10"
+        datetime: "2025-06-10"
+        category: "旅行"
+        title: "广西毕业旅行 sfx爽看yaoyao"
+        style: "travel"
+        number: "11"
+        english: "JUNE 10, 2025"
+  - year: "2026"
+    label: "2026"
+    caption: "2026 年记事"
+    english: "ARCHIVE 2026"
+    events:
+      - id: "new-year-grand-gathering"
+        date: "2026.01.01"
+        datetime: "2026-01-01"
+        category: "聚餐"
+        title: "超级大聚餐"
+        description: "煮酒论英雄 + 兵分四路 + 不省人事"
+        style: "gathering"
+        number: "12"
+        english: "JANUARY 01, 2026"
+      - id: "goose-goose-duck-photo"
+        date: "2026.01.07"
+        datetime: "2026-01-07"
+        category: "合照"
+        title: "鹅鸭杀大家庭合照"
+        style: "reflection"
+        number: "13"
+        english: "JANUARY 07, 2026"
+      - id: "northeast-trip-departure"
+        date: "2026.01.30"
+        datetime: "2026-01-30"
+        category: "旅行"
+        title: "东北 旅行出发"
+        style: "travel"
+        number: "14"
+        english: "JANUARY 30, 2026"
+      - id: "duoduo-leaves"
+        date: "2026.03.08"
+        datetime: "2026-03-08"
+        category: "记事"
+        title: "多多退出"
+        style: "reflection"
+        number: "15"
+        english: "MARCH 08, 2026"
+      - id: "jinjin-return-gathering"
+        date: "2026.06.27"
+        datetime: "2026-06-27"
+        category: "聚餐"
+        title: "金金回归，大聚餐"
+        style: "gathering"
+        number: "16"
+        english: "JUNE 27, 2026"
+      - id: "lfz-scooter-smoke"
+        date: "2026.07.15"
+        datetime: "2026-07-15"
+        category: "记事"
+        title: "lfz 电瓶车冒烟 怪多多"
+        style: "reflection"
+        number: "17"
+        english: "JULY 15, 2026"
+      - id: "lfz-scooter-stolen"
+        date: "2026.09.09"
+        datetime: "2026-09-09"
+        category: "记事"
+        title: "lfz 电瓶车被偷 怪多多"
+        style: "reflection"
+        number: "18"
+        english: "SEPTEMBER 09, 2026"
