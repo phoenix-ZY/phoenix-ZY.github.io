@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "Curriculum vitae of Tianhao Huang.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
         },{id: "news-our-paper-jigsaw-taming-bev-centric-perception-on-dual-soc-for-autonomous-driving-has-been-accepted-to-rtss-2024-second-student-author",
           title: 'Our paper “Jigsaw: Taming bev-centric perception on dual-soc for autonomous driving” has been...',
           description: "",
@@ -33,13 +26,6 @@ ninja.data = [{
           title: 'Attend ISLPED 2025 in Iceland to present our paper as a poster presentation!...',
           description: "",
           section: "News",},{
-        id: 'social-cv',
-        title: 'CV',
-        section: 'Socials',
-        handler: () => {
-          window.open("/assets/pdf/CV_TianhaoHuang.pdf", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
